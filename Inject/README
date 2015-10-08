@@ -1,0 +1,31 @@
+整合兩個專案:
+
+1. 提供 Inject Dll 的簡單而彈性的範例
+   http://www.codeproject.com/Articles/20084/A-More-Complete-DLL-Injection-Solution-Using-Creat
+
+2. 提供 Global Keyboard Hook dll
+   http://www.codeproject.com/Articles/7294/Processing-Global-Mouse-and-Keyboard-Hooks-in-C 
+
+步驟如下:
+  1. 利用 service 讓我們的執行檔有管理權限，而不必使用者「同意」
+     >> 透過 iMobileService 已做到
+  2. 我們的執行檔做的事就是把 HOTKEY 監聽程式放進 winlogon process 中
+     >> 這需要整合上面兩個專案
+  3. 當我們能在登入畫面監聽到按鍵時，再通知外部的程式來處理這些按鍵
+     >> 目前的想法是先寫到 log 檔中, 做為實驗本機制驗證用
+     >> 將來可能透過剪貼簿或是其它 IPC 機制來溝通
+
+  監聽程式的邏輯:
+  0. 準備一支 CompleteInject.exe, 它本身被 Service 呼叫執行
+  1. 主功用就是 inject hookDll.dll into winlogon, 
+     所以 CompleteInject.exe 執行完就結束了，用工作管理員是看不到它的
+  2. and call hookDll.dll 中的 iMobileHotkeyInit()
+  3. iMobileHotkeyInit() 把 Keyboard hook 到 iMobileHotkey_Press()
+  4. iMobileHotkey_Press() 中把收到的 keycode 寫到 C:\iMobileHotkey.log
+
+  簡單講，就是有兩支程式:
+  1. CompleteInject.exe, 基本上用第一個專案稍微修改就可以了
+  2. hookDll.dll, 基本上，用第二個專案做以下的修改 
+    1) 提供進入點 iMobileHotkeyInit()
+    2) 提供 iMobileHotkey_Press() for key event hook
+    3) 加入 log file 功能

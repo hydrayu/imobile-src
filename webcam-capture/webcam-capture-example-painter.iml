@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-painter/target/classes" />
+    <output-test url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-painter/target/test-classes" />
+    <content url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-painter">
+      <sourceFolder url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-painter/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-painter/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-painter/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="webcam-capture" />
+    <orderEntry type="library" name="Maven: com.nativelibs4java:bridj:0.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.insubstantial:substance:7.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.insubstantial:laf-widget:7.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.insubstantial:trident:swing:7.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.insubstantial:laf-plugin:7.1" level="project" />
+    <orderEntry type="library" name="Maven: com.jhlabs:filters:2.0.235-1" level="project" />
+  </component>
+</module>

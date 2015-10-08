@@ -1,0 +1,36 @@
+1. 包裝成 deb 部份，主要是參考這篇 https://gist.github.com/bdsatish/00ee8a21e298f2b20d9d
+2. 參照安裝後的路徑放好檔案（除了 DEBIAN/ 外），準備好 DEBIAN/ 之後，接下來執行 :
+   cd $PKGDIR/..
+   fakeroot dpkg -b $PKGDIR
+3. 最後也可以執行 lintian 檢查
+   lintian -EviIL +pedantic imobile-hotkey-1.0.deb
+4. 安裝 init.d
+   sudo update-rc.d buttond defaults
+5. 產生 md5
+   cd $PKGDIR && find . -type f ! -path './DEBIAN/*' -printf '%P\0' | sort -z | xargs -r0 md5sum > DEBIAN/md5sums
+
+== config GUI ==
+1. 主要是參考 https://sites.google.com/site/redaea/cappind-py
+   其他參考
+   http://www.webupd8.org/2011/09/zenity-for-appindicators-ubuntu.html
+   http://www.webupd8.org/2014/05/ubuntu-appindicator-that-displays-bash.html
+
+== zenity for application ==
+主要參考這篇 http://www.webupd8.org/2011/09/zenity-for-appindicators-ubuntu.html
+             http://www.linux.org/threads/zenity-gui-for-shell-scripts.5567/
+             https://help.gnome.org/users/zenity/stable/
+== IO port ==
+http://www.makelinux.net/ldd3/chp-9-sect-2
+http://web.cecs.pdx.edu/~jrb/ui/linux/examples.dir/misc-progs/
+http://tldp.org/HOWTO/IO-Port-Programming-2.html
+
+== daemon ==
+主要參考的文件 http://shahmirj.com/blog/beginners-guide-to-creating-a-daemon-in-linux
+網路上相關文件很多，例如:
+http://www.netzmafia.de/skripten/unix/linux-daemon-howto.html
+http://felix-lin.com/linux/%E5%89%B5%E5%BB%BA-daemon-%E7%A8%8B%E5%BC%8F/
+http://www.thegeekstuff.com/2012/02/c-daemon-process/
+
+== Desktop Icon ==
+完整教學 https://help.ubuntu.com/community/UnityLaunchersAndDesktopFiles
+

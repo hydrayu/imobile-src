@@ -1,0 +1,49 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/webcam-capture-addons/webcam-capture-addon-spycam/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-addons/webcam-capture-addon-swt/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-ffmpeg-cli/src/example/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-ffmpeg-cli/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-fswebcam/src/example/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-fswebcam/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-gstreamer/src/example/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-gstreamer/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-ipcam/src/examples/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-ipcam/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-ipcam/src/test/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-javacv/src/example/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-javacv/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-jmf/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-lti-civil/src/example/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-lti-civil/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-openimaj/src/example/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-openimaj/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-v4l4j/src/example/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-v4l4j/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-vlcj/src/example/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-vlcj/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-vlcj/src/test/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-applet/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-detect-face/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-executable/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-javafx-fxml/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-javafx/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-live-streaming/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-manycams/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-motiondetector/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-onejar/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-painter/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-qrcode/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-swt-awt/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-transformer/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-video-recording/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-websockets/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture/src/example/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture/src/main/java" />
+      <root url="file://$PROJECT_DIR$/webcam-capture/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,39 @@
+1. 請準備至少兩個檔:
+  1) iMobileComPort.cfg, 範例如下:
+<Start Port Name>:COM4:
+<MOTO Port Name> :COM1:
+<FAV Port Name>  :COM4:
+<Startup>        :1
+
+  只支援以上四個關鍵字，其他的都會被忽略，也就是目前只支援兩個裝置
+
+  2) 針對 MOTO 的設定檔比較複雜，這邊不說，只給晶隼的範例:
+<Port Name>      :COM4:
+<Baud Rate>      :38400
+<TX Xoff Flow>   :False
+<RX Xoff Flow>   :False
+<Bits/Byte>      :8
+<Parity>         :0
+<Stop Bits>      :0
+<Handshaking>    :0
+
+  3) 第二種的命名目前比較特別的是，它的檔名只能是 Port#.cfg, 裡頭仍然得指定 <Port Name>, 懶得修正它
+
+2. 目前啟動時，就是依靠 <Start Port Name> 來動作，會自動比對是 MOTO or FAV, 兩個的判讀方式差很多
+
+3. 可以在畫面的 下方中間 "Transmit:" 輸入框中輸入要傳輸的內容，分四種:
+  1) 原始資料:
+     語法一、ASCII: /sra ABC...
+     語法二、HEX  : /srh 0x01 0x0d ...
+     其中 ASCII 時，必須連續，可以使用 \r, \n, \t 這三個特殊字元
+  2) 切換裝置:
+     /MOTO
+     /FAV
+  3) MOTO:
+     語法一、只有 OP 沒有 Data: /s0 op
+     語法二、有 Data:           /s1 op HEX_DATA
+     其中 HEX_DATA 是一個 byte, 也就是 HH 的字樣
+  4) FAV:
+     語法一、 /Q  <-- 就是手動讓它讀，不過因為目前會自動讀，所以這項作用不大
+     語法二、 /S  <-- 手動傳回讀卡機的識別碼
+     語法三、 /V  <-- 手動傳回 Firmware Version

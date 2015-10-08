@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="webcam-capture-example-qrcode:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/webcam_capture_example_qrcode_jar</output-path>
+    <root id="archive" name="webcam-capture-example-qrcode.jar">
+      <element id="module-output" name="webcam-capture-example-qrcode" />
+      <element id="module-output" name="webcam-capture" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/zxing/javase/2.1/javase-2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/nativelibs4java/bridj/0.7.0/bridj-0.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/zxing/core/2.1/core-2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

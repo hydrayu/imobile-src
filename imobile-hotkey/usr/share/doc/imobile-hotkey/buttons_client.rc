@@ -1,0 +1,5 @@
+B1:/usr/bin/firefox
+B2:/usr/bin/gnome-terminal
+B3:/usr/bin/xterm
+B4:/usr/bin/oclock || /usr/bin/xclock
+B5:/usr/bin/gnome-calculator

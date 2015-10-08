@@ -1,0 +1,292 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/libraries/
+* .idea/libraries/core_3_2_0.xml
+* .idea/libraries/javase_3_2_0.xml
+* .idea/libraries/libs.xml
+* .idea/libraries/opencv_300.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* androidVNC.iml
+* build.xml
+* build_android.xml
+* default.properties
+* install_signed.xml
+* out/
+* out/production/
+* out/production/ZoomerWithKeys/
+* out/production/ZoomerWithKeys/com/
+* out/production/ZoomerWithKeys/com/antlersoft/
+* out/production/ZoomerWithKeys/com/antlersoft/android/
+* out/production/ZoomerWithKeys/com/antlersoft/android/zoomer/
+* out/production/ZoomerWithKeys/com/antlersoft/android/zoomer/BuildConfig.class
+* out/production/ZoomerWithKeys/com/antlersoft/android/zoomer/R$attr.class
+* out/production/ZoomerWithKeys/com/antlersoft/android/zoomer/R$drawable.class
+* out/production/ZoomerWithKeys/com/antlersoft/android/zoomer/R$id.class
+* out/production/ZoomerWithKeys/com/antlersoft/android/zoomer/R$layout.class
+* out/production/ZoomerWithKeys/com/antlersoft/android/zoomer/R$string.class
+* out/production/ZoomerWithKeys/com/antlersoft/android/zoomer/R.class
+* out/production/ZoomerWithKeys/com/antlersoft/android/zoomer/ZoomControls.class
+* out/production/androidVNC/
+* out/production/androidVNC/android/
+* out/production/androidVNC/android/androidVNC/
+* out/production/androidVNC/android/androidVNC/AbstractBitmapData.class
+* out/production/androidVNC/android/androidVNC/AbstractBitmapDrawable.class
+* out/production/androidVNC/android/androidVNC/AbstractConnectionBean.class
+* out/production/androidVNC/android/androidVNC/AbstractGestureInputHandler.class
+* out/production/androidVNC/android/androidVNC/AbstractInputHandler.class
+* out/production/androidVNC/android/androidVNC/AbstractMetaKeyBean.class
+* out/production/androidVNC/android/androidVNC/AbstractScaling.class
+* out/production/androidVNC/android/androidVNC/BitmapImplHint.class
+* out/production/androidVNC/android/androidVNC/BuildConfig.class
+* out/production/androidVNC/android/androidVNC/COLORMODEL$1.class
+* out/production/androidVNC/android/androidVNC/COLORMODEL.class
+* out/production/androidVNC/android/androidVNC/CapabilityInfo.class
+* out/production/androidVNC/android/androidVNC/CapsContainer.class
+* out/production/androidVNC/android/androidVNC/ColorModel256.class
+* out/production/androidVNC/android/androidVNC/ColorModel64.class
+* out/production/androidVNC/android/androidVNC/ColorModel8.class
+* out/production/androidVNC/android/androidVNC/CompactBitmapData$CompactBitmapDrawable.class
+* out/production/androidVNC/android/androidVNC/CompactBitmapData.class
+* out/production/androidVNC/android/androidVNC/ConnectionBean$1.class
+* out/production/androidVNC/android/androidVNC/ConnectionBean.class
+* out/production/androidVNC/android/androidVNC/ConnectionListActivity.class
+* out/production/androidVNC/android/androidVNC/ConnectionSettable.class
+* out/production/androidVNC/android/androidVNC/DH.class
+* out/production/androidVNC/android/androidVNC/DPadMouseKeyHandler$1.class
+* out/production/androidVNC/android/androidVNC/DPadMouseKeyHandler.class
+* out/production/androidVNC/android/androidVNC/DesCipher.class
+* out/production/androidVNC/android/androidVNC/EnterTextDialog$1.class
+* out/production/androidVNC/android/androidVNC/EnterTextDialog$2.class
+* out/production/androidVNC/android/androidVNC/EnterTextDialog$3.class
+* out/production/androidVNC/android/androidVNC/EnterTextDialog$4.class
+* out/production/androidVNC/android/androidVNC/EnterTextDialog$5.class
+* out/production/androidVNC/android/androidVNC/EnterTextDialog.class
+* out/production/androidVNC/android/androidVNC/FitToScreenScaling.class
+* out/production/androidVNC/android/androidVNC/FullBufferBitmapData$Drawable.class
+* out/production/androidVNC/android/androidVNC/FullBufferBitmapData.class
+* out/production/androidVNC/android/androidVNC/IConnectionBean.class
+* out/production/androidVNC/android/androidVNC/IMetaKey.class
+* out/production/androidVNC/android/androidVNC/IMetaList.class
+* out/production/androidVNC/android/androidVNC/IMostRecentBean.class
+* out/production/androidVNC/android/androidVNC/ISentText.class
+* out/production/androidVNC/android/androidVNC/ImportExportDialog$1.class
+* out/production/androidVNC/android/androidVNC/ImportExportDialog$2.class
+* out/production/androidVNC/android/androidVNC/ImportExportDialog.class
+* out/production/androidVNC/android/androidVNC/InStream.class
+* out/production/androidVNC/android/androidVNC/IntroTextDialog$1.class
+* out/production/androidVNC/android/androidVNC/IntroTextDialog$2.class
+* out/production/androidVNC/android/androidVNC/IntroTextDialog$3.class
+* out/production/androidVNC/android/androidVNC/IntroTextDialog$4.class
+* out/production/androidVNC/android/androidVNC/IntroTextDialog$5.class
+* out/production/androidVNC/android/androidVNC/IntroTextDialog.class
+* out/production/androidVNC/android/androidVNC/LargeBitmapData$1.class
+* out/production/androidVNC/android/androidVNC/LargeBitmapData$LargeBitmapDrawable.class
+* out/production/androidVNC/android/androidVNC/LargeBitmapData.class
+* out/production/androidVNC/android/androidVNC/MemInStream.class
+* out/production/androidVNC/android/androidVNC/MetaKeyBase.class
+* out/production/androidVNC/android/androidVNC/MetaKeyBean$1.class
+* out/production/androidVNC/android/androidVNC/MetaKeyBean.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$1$1.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$1.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$2$1.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$2.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$3.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$4.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$5.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$6.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$7.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$8.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog$MetaCheckListener.class
+* out/production/androidVNC/android/androidVNC/MetaKeyDialog.class
+* out/production/androidVNC/android/androidVNC/MetaList$1.class
+* out/production/androidVNC/android/androidVNC/MetaList.class
+* out/production/androidVNC/android/androidVNC/MostRecentBean$1.class
+* out/production/androidVNC/android/androidVNC/MostRecentBean.class
+* out/production/androidVNC/android/androidVNC/MouseMover.class
+* out/production/androidVNC/android/androidVNC/OneToOneScaling.class
+* out/production/androidVNC/android/androidVNC/Panner$DefaultUpdater.class
+* out/production/androidVNC/android/androidVNC/Panner$VelocityUpdater.class
+* out/production/androidVNC/android/androidVNC/Panner.class
+* out/production/androidVNC/android/androidVNC/R$attr.class
+* out/production/androidVNC/android/androidVNC/R$drawable.class
+* out/production/androidVNC/android/androidVNC/R$id.class
+* out/production/androidVNC/android/androidVNC/R$layout.class
+* out/production/androidVNC/android/androidVNC/R$menu.class
+* out/production/androidVNC/android/androidVNC/R$string.class
+* out/production/androidVNC/android/androidVNC/R.class
+* out/production/androidVNC/android/androidVNC/RepeaterDialog$1.class
+* out/production/androidVNC/android/androidVNC/RepeaterDialog$2.class
+* out/production/androidVNC/android/androidVNC/RepeaterDialog.class
+* out/production/androidVNC/android/androidVNC/RfbProto.class
+* out/production/androidVNC/android/androidVNC/SentTextBean$1.class
+* out/production/androidVNC/android/androidVNC/SentTextBean.class
+* out/production/androidVNC/android/androidVNC/Utils$1.class
+* out/production/androidVNC/android/androidVNC/Utils.class
+* out/production/androidVNC/android/androidVNC/VncCanvas$1$1.class
+* out/production/androidVNC/android/androidVNC/VncCanvas$1.class
+* out/production/androidVNC/android/androidVNC/VncCanvas$2$1.class
+* out/production/androidVNC/android/androidVNC/VncCanvas$2$2.class
+* out/production/androidVNC/android/androidVNC/VncCanvas$2.class
+* out/production/androidVNC/android/androidVNC/VncCanvas$3.class
+* out/production/androidVNC/android/androidVNC/VncCanvas$4.class
+* out/production/androidVNC/android/androidVNC/VncCanvas$MouseScrollRunnable.class
+* out/production/androidVNC/android/androidVNC/VncCanvas.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$1.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$2.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$3.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$4.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$5.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$6.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$DPadPanTouchMouseMode$1.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$DPadPanTouchMouseMode.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$FitToScreenMode.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$HideZoomRunnable.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$MouseMode.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$PanMode.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$TouchPanTrackballMouse.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$TouchpadInputHandler.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$ZoomInputHandler$1.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity$ZoomInputHandler.class
+* out/production/androidVNC/android/androidVNC/VncCanvasActivity.class
+* out/production/androidVNC/android/androidVNC/VncConstants.class
+* out/production/androidVNC/android/androidVNC/VncDatabase.class
+* out/production/androidVNC/android/androidVNC/ZlibInStream.class
+* out/production/androidVNC/android/androidVNC/ZoomScaling.class
+* out/production/androidVNC/android/androidVNC/androidVNC$1.class
+* out/production/androidVNC/android/androidVNC/androidVNC$2.class
+* out/production/androidVNC/android/androidVNC/androidVNC$3.class
+* out/production/androidVNC/android/androidVNC/androidVNC$4.class
+* out/production/androidVNC/android/androidVNC/androidVNC$5.class
+* out/production/androidVNC/android/androidVNC/androidVNC$6.class
+* out/production/androidVNC/android/androidVNC/androidVNC$7.class
+* out/production/androidVNC/android/androidVNC/androidVNC.class
+* out/production/androidVNC/androidVNC.apk
+* out/production/androidVNC/androidVNC.unaligned.apk
+* out/production/androidVNC/com/
+* out/production/androidVNC/com/antlersoft/
+* out/production/androidVNC/com/antlersoft/android/
+* out/production/androidVNC/com/antlersoft/android/bc/
+* out/production/androidVNC/com/antlersoft/android/bc/BCActivityManagerDefault.class
+* out/production/androidVNC/com/antlersoft/android/bc/BCActivityManagerV5.class
+* out/production/androidVNC/com/antlersoft/android/bc/BCFactory.class
+* out/production/androidVNC/com/antlersoft/android/bc/BCGestureDetectorDefault.class
+* out/production/androidVNC/com/antlersoft/android/bc/BCHapticDefault.class
+* out/production/androidVNC/com/antlersoft/android/bc/BCMotionEvent4.class
+* out/production/androidVNC/com/antlersoft/android/bc/BCMotionEvent5.class
+* out/production/androidVNC/com/antlersoft/android/bc/BCStorageContext7.class
+* out/production/androidVNC/com/antlersoft/android/bc/BCStorageContext8.class
+* out/production/androidVNC/com/antlersoft/android/bc/DummyScaleGestureDetector.class
+* out/production/androidVNC/com/antlersoft/android/bc/IBCActivityManager.class
+* out/production/androidVNC/com/antlersoft/android/bc/IBCGestureDetector.class
+* out/production/androidVNC/com/antlersoft/android/bc/IBCHaptic.class
+* out/production/androidVNC/com/antlersoft/android/bc/IBCMotionEvent.class
+* out/production/androidVNC/com/antlersoft/android/bc/IBCScaleGestureDetector.class
+* out/production/androidVNC/com/antlersoft/android/bc/IBCStorageContext.class
+* out/production/androidVNC/com/antlersoft/android/bc/OnScaleGestureListener.class
+* out/production/androidVNC/com/antlersoft/android/bc/ScaleGestureDetector.class
+* out/production/androidVNC/com/antlersoft/android/bc/SimpleOnScaleGestureListener.class
+* out/production/androidVNC/com/antlersoft/android/drawing/
+* out/production/androidVNC/com/antlersoft/android/drawing/OverlappingCopy$1.class
+* out/production/androidVNC/com/antlersoft/android/drawing/OverlappingCopy.class
+* out/production/androidVNC/com/antlersoft/android/drawing/RectList$1.class
+* out/production/androidVNC/com/antlersoft/android/drawing/RectList$2.class
+* out/production/androidVNC/com/antlersoft/android/drawing/RectList$3.class
+* out/production/androidVNC/com/antlersoft/android/drawing/RectList$NonOverlappingPortion.class
+* out/production/androidVNC/com/antlersoft/android/drawing/RectList$NonOverlappingRects.class
+* out/production/androidVNC/com/antlersoft/android/drawing/RectList$OverlapType.class
+* out/production/androidVNC/com/antlersoft/android/drawing/RectList.class
+* out/production/androidVNC/com/antlersoft/android/zoomer/
+* out/production/androidVNC/com/antlersoft/android/zoomer/BuildConfig.class
+* out/production/androidVNC/com/antlersoft/android/zoomer/R$drawable.class
+* out/production/androidVNC/com/antlersoft/android/zoomer/R$id.class
+* out/production/androidVNC/com/antlersoft/android/zoomer/R$layout.class
+* out/production/androidVNC/com/antlersoft/android/zoomer/R$string.class
+* out/production/androidVNC/com/antlersoft/android/zoomer/R.class
+* out/production/androidVNC/com/antlersoft/util/
+* out/production/androidVNC/com/antlersoft/util/ByteBufferStack.class
+* out/production/androidVNC/com/antlersoft/util/ObjectPool$Entry.class
+* out/production/androidVNC/com/antlersoft/util/ObjectPool.class
+* out/production/androidVNC/com/antlersoft/util/SafeObjectPool.class
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/ => app/src/main/java/
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/.classpath => app/src/main/resources/.classpath
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/.project => app/src/main/resources/.project
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/AndroidManifest.xml => app/src/main/resources/AndroidManifest.xml
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/ZoomerWithKeys.iml => app/src/main/resources/ZoomerWithKeys.iml
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/default.properties => app/src/main/resources/default.properties
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/proguard.cfg => app/src/main/resources/proguard.cfg
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_down_disabled.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_down_disabled.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_down_disabled_focused.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_down_disabled_focused.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_down_normal.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_down_normal.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_down_pressed.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_down_pressed.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_down_selected.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_down_selected.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_up_disabled.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_up_disabled.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_up_disabled_focused.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_up_disabled_focused.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_up_normal.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_up_normal.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_up_pressed.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_up_pressed.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-hdpi/btn_zoom_up_selected.9.png => app/src/main/resources/res/drawable-hdpi/btn_zoom_up_selected.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_down_disabled.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_down_disabled.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_down_disabled_focused.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_down_disabled_focused.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_down_normal.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_down_normal.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_down_pressed.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_down_pressed.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_down_selected.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_down_selected.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_up_disabled.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_up_disabled.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_up_disabled_focused.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_up_disabled_focused.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_up_normal.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_up_normal.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_up_pressed.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_up_pressed.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable-mdpi/btn_zoom_up_selected.9.png => app/src/main/resources/res/drawable-mdpi/btn_zoom_up_selected.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_down.xml => app/src/main/resources/res/drawable/btn_zoom_down.xml
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_down_disabled.9.png => app/src/main/resources/res/drawable/btn_zoom_down_disabled.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_down_disabled_focused.9.png => app/src/main/resources/res/drawable/btn_zoom_down_disabled_focused.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_down_normal.9.png => app/src/main/resources/res/drawable/btn_zoom_down_normal.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_down_pressed.9.png => app/src/main/resources/res/drawable/btn_zoom_down_pressed.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_down_selected.9.png => app/src/main/resources/res/drawable/btn_zoom_down_selected.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_up.xml => app/src/main/resources/res/drawable/btn_zoom_up.xml
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_up_disabled.9.png => app/src/main/resources/res/drawable/btn_zoom_up_disabled.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_up_disabled_focused.9.png => app/src/main/resources/res/drawable/btn_zoom_up_disabled_focused.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_up_normal.9.png => app/src/main/resources/res/drawable/btn_zoom_up_normal.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_up_pressed.9.png => app/src/main/resources/res/drawable/btn_zoom_up_pressed.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/drawable/btn_zoom_up_selected.9.png => app/src/main/resources/res/drawable/btn_zoom_up_selected.9.png
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/layout/zoom_controls.xml => app/src/main/resources/res/layout/zoom_controls.xml
+* /home/wade/src/android-vnc/eclipse_projects/ZoomerWithKeys/res/values/strings.xml => app/src/main/resources/res/values/strings.xml
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* libs/com.antlersoft.android.contentxml.jar => app/libs/com.antlersoft.android.contentxml.jar
+* libs/com.antlersoft.android.db.jar => app/libs/com.antlersoft.android.db.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

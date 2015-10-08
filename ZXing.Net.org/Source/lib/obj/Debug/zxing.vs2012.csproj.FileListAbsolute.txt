@@ -1,0 +1,5 @@
+D:\src\ZXing.Net.org\Source\lib\obj\Debug\zxing.vs2012.csprojResolveAssemblyReference.cache
+D:\src\ZXing.Net.org\Build\Debug\net4.5\zxing.dll
+D:\src\ZXing.Net.org\Build\Debug\net4.5\zxing.pdb
+D:\src\ZXing.Net.org\Source\lib\obj\Debug\zxing.dll
+D:\src\ZXing.Net.org\Source\lib\obj\Debug\zxing.pdb

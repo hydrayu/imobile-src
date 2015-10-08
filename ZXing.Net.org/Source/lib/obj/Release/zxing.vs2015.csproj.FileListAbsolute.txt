@@ -1,0 +1,11 @@
+D:\src\ZXing.Net.org\Build\Release\net4.5\zxing.XML
+D:\src\ZXing.Net.org\Build\Release\net4.5\zxing.dll
+D:\src\ZXing.Net.org\Build\Release\net4.5\zxing.pdb
+D:\src\ZXing.Net.org\Build\Release\net4.0\zxing.XML
+D:\src\ZXing.Net.org\Build\Release\net4.0\zxing.dll
+D:\src\ZXing.Net.org\Build\Release\net4.0\zxing.pdb
+D:\src\ZXing.Net.org\Build\Release\net3.5\zxing.XML
+D:\src\ZXing.Net.org\Build\Release\net3.5\zxing.dll
+D:\src\ZXing.Net.org\Build\Release\net3.5\zxing.pdb
+D:\src\ZXing.Net.org\Source\lib\obj\Release\zxing.dll
+D:\src\ZXing.Net.org\Source\lib\obj\Release\zxing.pdb

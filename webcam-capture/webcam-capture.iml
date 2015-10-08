@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/webcam-capture/target/classes" />
+    <output-test url="file://$MODULE_DIR$/webcam-capture/target/test-classes" />
+    <content url="file://$MODULE_DIR$/webcam-capture">
+      <sourceFolder url="file://$MODULE_DIR$/webcam-capture/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/webcam-capture/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/webcam-capture/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/webcam-capture/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.nativelibs4java:bridj:0.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: ch.qos.logback:logback-classic:1.0.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: ch.qos.logback:logback-core:1.0.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:1.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.easymock:easymock:3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: cglib:cglib-nodep:2.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.awaitility:awaitility:1.6.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-library:1.3" level="project" />
+    <orderEntry type="library" name="java" level="project" />
+    <orderEntry type="library" name="net.sf.launch4j:launch4j:3.8.0" level="project" />
+  </component>
+</module>

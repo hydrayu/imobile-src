@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/WidgetLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="40dp"
+        android:layout_height="50dp" >
+
+        <ImageView
+            android:id="@+id/ImageViewId"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/signal_all" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Po_Signal"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/empty" >
+        </ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Po_TV"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:text="Searching..."
+        android:textSize="26sp" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-javafx/target/classes" />
+    <output-test url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-javafx/target/test-classes" />
+    <content url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-javafx">
+      <sourceFolder url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-javafx/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/webcam-capture-examples/webcam-capture-javafx/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="webcam-capture" />
+    <orderEntry type="library" name="Maven: com.nativelibs4java:bridj:0.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.oracle:javafx:2.2">
+        <CLASSES>
+          <root url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfxrt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

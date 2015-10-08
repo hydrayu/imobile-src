@@ -1,0 +1,23 @@
+-- 準備 --
+1. copy module into /lib/modules/`uname -r`/kernel/drivers/watchdog
+  $ sudo copy it8712f_wdt.ko /lib/modules/`uname -r`/kernel/drivers/watchdog
+2. insert module when startup:
+  $ sudo echo it8712f_wdt >> /etc/modules
+  PS: maybe need edit it manually
+3. 接下來可以重開機，或是手動下  modprobe it8712f_wdt 來掛載，也可以試 modprobe 成功後，再試試重開機是否能成功
+重開機後，應該照下面指令是會找到它的:
+$ sudo lsmod | grep it8712
+PS: 預設值是 60 秒
+
+-- 啟動並定期送訊號給 watchdog --
+$ echo '' > /dev/watchdog
+$ while true; do echo '' > /dev/watchdog; sleep 10; done
+
+-- 關閉 --
+1. manually
+$ sudo rmmod it8712f_wdt
+2. auto after reboot
+    You need edit /etc/modules to remove it8712f_wdt && reboot
+
+-- HOWTO controll watchdog timeout --
+Please refer to http://manpages.ubuntu.com/manpages/lucid/en/man4/watchdog.4freebsd.html

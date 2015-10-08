@@ -1,0 +1,1 @@
+update-rc.d -f buttond-init.d remove

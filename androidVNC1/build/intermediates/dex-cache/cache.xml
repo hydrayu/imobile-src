@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/wade/AndroidStudioProjects/androidVNC1/app/libs/com.antlersoft.android.contentxml.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0430d5248664e4f08d8b150bb5a9d947767a94ba">
+        <dex dex="/home/wade/AndroidStudioProjects/androidVNC1/app/build/intermediates/pre-dexed/release/com.antlersoft.android.contentxml-6f5803b67b6233b82260d101ef104c25267f493c.jar" />
+    </item>
+    <item
+        jar="/home/wade/AndroidStudioProjects/androidVNC1/app/libs/com.antlersoft.android.db.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="22b26205ed95ecc9ff1e029024b3187ca0fd86b6">
+        <dex dex="/home/wade/AndroidStudioProjects/androidVNC1/app/build/intermediates/pre-dexed/release/com.antlersoft.android.db-9ea7b835e64138202cb383c8e87ee7606b69b359.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\App.g.i.cs
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\App.g.cs
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\Common\StandardStyles.g.i.cs
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\Common\StandardStyles.g.cs
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\MainPage.g.i.cs
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\MainPage.g.cs
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\XamlTypeInfo.g.cs
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\App.xaml
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\Common\StandardStyles.xaml
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\MainPage.xaml
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\App.xbf
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\Common\StandardStyles.xbf
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\MainPage.xbf
+D:\src\ZXing.Net.org\Clients\WindowsRTDemo\obj\Debug\XamlSaveStateFile.xml

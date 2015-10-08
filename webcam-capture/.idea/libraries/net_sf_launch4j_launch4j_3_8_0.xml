@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="net.sf.launch4j:launch4j:3.8.0" type="repository">
+    <properties maven-id="net.sf.launch4j:launch4j:3.8.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/launch4j-3.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/abeille-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jgoodies-looks-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jgoodies-common-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/foxtrot-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/forms-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/looks-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xstream-1.4.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xmlpull-1.1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xpp3_min-1.1.4c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ant-1.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ant-launcher-1.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

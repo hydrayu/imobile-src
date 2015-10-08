@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\FAVEPCUtility.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FAVEPC Utility.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ButtonDisabled1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ButtonDown1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ButtonNomal1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ButtonMove1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Graphite_Airport_W.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBK.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnPowerNomal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnPowerMove.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnPowerDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBulbOFFNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBulbOFFMove.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBulbOFFDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnGreenONNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnGreenONMove.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnGreenONDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnGreenOFFNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnGreenOFFMove.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnGreenOFFDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBulbONNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBulbONMove.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBulbONDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnPairNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnPairMove.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnPairDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRedONNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRedONMove.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRedONDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRedOFFNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRedOFFOver.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRedOFFDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBlueONNomal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBlueONMove.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBlueONDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBlueOFFNomal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBlueOFFMove.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBlueOFFDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RMC.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RF.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBK3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnBK1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FAVEPC Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVEPC UtilityDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVEPC\FAVSenseBtn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVReaderDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVEPC\FAVListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVEPC\FAVEnGroupboxCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVEPC\FAVLipBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVRMCDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVEPC\FAVTabCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVConnectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVLNODlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UARTDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVEPC\FAVColourPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FAVEPC\FAVColourPicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FAVEPC Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVEPC UtilityDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVEPC\FAVSenseBtn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVReaderDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVEPC\FAVListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVEPC\FAVLipBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVEPC\FAVEnGroupboxCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVRMCDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVEPC\FAVTabCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVConnectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVLNODlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVEPC\FAVColourPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAVEPC\FAVColourPicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FAVEPC Utility.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

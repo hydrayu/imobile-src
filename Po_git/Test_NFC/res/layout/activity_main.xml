@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#808080"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" 
+        >
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+            android:background="#FF0000"
+            android:layout_weight="2" >
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/info2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+            android:background="#FFFFFF"
+            android:layout_weight="1" >
+            <Button
+            android:id="@+id/write_tag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write to Tag" />
+        </LinearLayout>
+        
+            
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/write_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write to Tag" />
+
+        <EditText
+            android:id="@+id/note"
+            android:layout_width="fill_parent"
+            android:layout_height="388dp"
+            android:gravity="top"
+            android:text="Tag ID (hex): a3 2a 2e 4e\nTag ID (dec): 2737450574\nID (reversed): 1311648419\nTechnologies: MifareClassic, NfcA, Ndef\nMifare Classic type: Classic\nMifare size: 1024 bytes\nMifare sectors: 16\nMifare blocks: 64\n" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>

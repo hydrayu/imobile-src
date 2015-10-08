@@ -1,0 +1,6 @@
+Usage:
+  iMobile_RFID.exe [-h] [-m] [-d]
+  
+  iMobile_RFID.exe -m : the DEFAULT mode, minimize the console window
+  iMobile_RFID.exe -d : the DEBUG mode, open with normal console window
+  iMobile_RFID.exe -h : the HIDE mode, open without console window

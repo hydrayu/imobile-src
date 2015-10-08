@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-addons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-addons/webcam-capture-addon-spycam" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-addons/webcam-capture-addon-swt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-ffmpeg-cli" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-fswebcam" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-gstreamer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-ipcam" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-javacv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-jmf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-lti-civil" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-openimaj" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-v4l4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-drivers/driver-vlcj" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-applet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-detect-face" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-executable" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-live-streaming" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-manycams" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-motiondetector" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-painter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-qrcode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-swt-awt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-transformer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-examples/webcam-capture-video-recording" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webcam-capture-pages" charset="UTF-8" />
+  </component>
+</project>

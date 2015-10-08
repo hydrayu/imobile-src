@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.sarxos:lti-civil-no-swt:20070920-1721">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/sarxos/lti-civil-no-swt/20070920-1721/lti-civil-no-swt-20070920-1721.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/sarxos/lti-civil-no-swt/20070920-1721/lti-civil-no-swt-20070920-1721-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/sarxos/lti-civil-no-swt/20070920-1721/lti-civil-no-swt-20070920-1721-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,145 @@
+/*
+ * Copyright 2013 ZXing authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace ZXing.PDF417.Internal
+{
+   /// <summary>
+   /// 
+   /// </summary>
+   /// <author>Guenther Grau</author>
+   /// <author>creatale GmbH (christoph.schulz@creatale.de)</author>
+   public static class PDF417CodewordDecoder
+   {
+      /// <summary>
+      /// The ratios tree
+      /// </summary>
+      private static readonly KDTree.KDTree<int> RATIOS_TREE = new KDTree.KDTree<int>(8);
+
+      /// <summary>
+      /// Initializes the <see cref="ZXing.PDF417.Internal.PDF417CodewordDecoder"/> class &amp; Pre-computes the symbol ratio table.
+      /// </summary>
+      static PDF417CodewordDecoder()
+      {
+         // Pre-computes the symbol ratio table.
+         for (var i = 0; i < PDF417Common.SYMBOL_TABLE.Length; i++)
+         {
+            var currentSymbol = PDF417Common.SYMBOL_TABLE[i];
+            var currentBit = currentSymbol & 0x1;
+            var curEntry = new double[PDF417Common.BARS_IN_MODULE];
+            for (var j = 0; j < PDF417Common.BARS_IN_MODULE; j++)
+            {
+               var size = 0.0f;
+               while ((currentSymbol & 0x1) == currentBit)
+               {
+                  size += 1.0f;
+                  currentSymbol >>= 1;
+               }
+               currentBit = currentSymbol & 0x1;
+               curEntry[PDF417Common.BARS_IN_MODULE - j - 1] = size / PDF417Common.MODULES_IN_CODEWORD;
+            }
+	    RATIOS_TREE.AddPoint(curEntry, PDF417Common.SYMBOL_TABLE[i]);
+         }
+      }
+
+      /// <summary>
+      /// Gets the decoded value.
+      /// </summary>
+      /// <returns>The decoded value.</returns>
+      /// <param name="moduleBitCount">Module bit count.</param>
+      public static int getDecodedValue(int[] moduleBitCount)
+      {
+         int decodedValue = getDecodedCodewordValue(sampleBitCounts(moduleBitCount));
+         if (decodedValue != PDF417Common.INVALID_CODEWORD)
+         {
+            return decodedValue;
+         }
+         return getClosestDecodedValue(moduleBitCount);
+      }
+
+      /// <summary>
+      /// Samples the bit counts.
+      /// </summary>
+      /// <returns>The bit counts.</returns>
+      /// <param name="moduleBitCount">Module bit count.</param>
+      private static int[] sampleBitCounts(int[] moduleBitCount)
+      {
+         float bitCountSum = PDF417Common.getBitCountSum(moduleBitCount);
+         int[] result = new int[PDF417Common.BARS_IN_MODULE];
+         int bitCountIndex = 0;
+         int sumPreviousBits = 0;
+         for (int i = 0; i < PDF417Common.MODULES_IN_CODEWORD; i++)
+         {
+            float sampleIndex =
+               bitCountSum/(2*PDF417Common.MODULES_IN_CODEWORD) +
+               (i*bitCountSum)/PDF417Common.MODULES_IN_CODEWORD;
+            if (sumPreviousBits + moduleBitCount[bitCountIndex] <= sampleIndex)
+            {
+               sumPreviousBits += moduleBitCount[bitCountIndex];
+               bitCountIndex++;
+            }
+            result[bitCountIndex]++;
+         }
+         return result;
+      }
+
+      /// <summary>
+      /// Gets the decoded codeword value.
+      /// </summary>
+      /// <returns>The decoded codeword value.</returns>
+      /// <param name="moduleBitCount">Module bit count.</param>
+      private static int getDecodedCodewordValue(int[] moduleBitCount)
+      {
+         int decodedValue = getBitValue(moduleBitCount);
+         return PDF417Common.getCodeword(decodedValue) == PDF417Common.INVALID_CODEWORD ? PDF417Common.INVALID_CODEWORD : decodedValue;
+      }
+
+      /// <summary>
+      /// Gets the bit value.
+      /// </summary>
+      /// <returns>The bit value.</returns>
+      /// <param name="moduleBitCount">Module bit count.</param>
+      private static int getBitValue(int[] moduleBitCount)
+      {
+         ulong result = 0;
+         for (ulong i = 0; i < (ulong) moduleBitCount.Length; i++)
+         {
+            for (int bit = 0; bit < moduleBitCount[i]; bit++)
+            {
+               result = (result << 1) | (i%2ul == 0ul ? 1ul : 0ul); // C# was warning about using the bit-wise 'OR' here with a mix of int/longs.
+            }
+         }
+         return (int) result;
+      }
+
+      /// <summary>
+      /// Gets the closest decoded value.
+      /// </summary>
+      /// <returns>The closest decoded value.</returns>
+      /// <param name="moduleBitCount">Module bit count.</param>
+      private static int getClosestDecodedValue(int[] moduleBitCount)
+      {
+         var bitCountSum = PDF417Common.getBitCountSum(moduleBitCount);
+         var bitCountRatios = new double[PDF417Common.BARS_IN_MODULE];
+         for (int i = 0; i < bitCountRatios.Length; i++)
+         {
+            bitCountRatios[i] = moduleBitCount[i]/(double) bitCountSum;
+         }
+         var result = RATIOS_TREE.NearestNeighbors(bitCountRatios, 1);
+         result.MoveNext();
+         return result.Current;
+      }
+   }
+}

@@ -1,0 +1,29 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: imobile-hotkey
+Version: 0.3.2
+Maintainer: wade chen <wade.fs@gmail.com>
+Depends: zenity, dbus, libdbus-1-3, python-gtk2, python-appindicator
+Architecture: amd64
+Readme: /home/wade/src/kernel/README
+Description: Use this package to monitor hotkey button, config the hotkey command etc.
+ buttond :
+   a daemon, that monitor hotkey press event and send message by d-bus
+   it must start when boot
+ buttons_client :
+   a user client to listen button press event through d-bus, which sent from buttond.
+   it must start when user login Desktop, please see $HOME/.config/upstart/buttons_client.conf
+ $HOME/.config/upstart/buttons_client.conf :
+   auto start buttons_client when user login Desktop
+ buttons_config : a user tool to setup the hotkey command
+ hotkey_config.sh :
+   a config GUI on top of Desktop by using zenity & python app indicator
+ cappind.py:
+   Zenity for appindicators, ref to https://sites.google.com/site/redaea/cappind-py
+ etc/buttond.conf :
+   a config file for buttond, if not exist, buttond will use the default value
+ $HOME/.buttons_client.rc :
+   a config file for buttons_client, that listen event from buttond and then do command. 
+ .
+

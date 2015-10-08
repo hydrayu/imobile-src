@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThermalPrinter_WiFiSwitch</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="connect">Link</string>
+    <string name="disconnect">Break</string>
+    <string name="testtext">Text</string>
+    <string name="testbarcode">BarCode</string>
+    <string name="testqrcode">QRCode</string>
+    <string name="testpic">Picture</string>
+    <string name="querystatus">QueryState</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Adam Nybäck
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">NFC Reader</string>
+    <string name="intro_message">This is a simple app to read various tags (NDEF, RFID, FeliCa, ISO 14443, etc).\n\nYou use it by holding a tag/card against the back of your device.\n\nPlease let me know if you want me to change how the data is displayed. Also send me an e-mail (adam@anyro.se) if you have any problems with the app and I\'ll let you know when I\'ve fixed it. You can also see the source code and report issues at https://github.com/nadam/nfc-reader.\n\nIf you can\'t read any tag, please try some of the other NFC apps on Google Play and let me know if this app is the only one not working. Thanks!\n\n/Adam</string>
+    <string name="error">Error</string>
+    <string name="no_nfc">No NFC found on this device</string>
+    <string name="nfc_disabled">NFC is not enabled. Please go to the wireless settings to enable it.</string>
+    <string name="Po_Number">會員編號</string>
+    <string name="Po_Name">姓名</string>
+    <string name="Po_Records">會員紀錄</string>
+    <string name="Po_Records_Name">品名</string>
+    <string name="Po_Records_Date">日期</string>
+    <string name="Po_Records_Money">金額</string>
+    
+    <string name="Po_Expires">會員到期日</string>
+    <string name="Po_Points">紅利點數</string>
+	<string name="Po_Company">公司名稱</string>    
+	<string name="Po_Post">職稱</string>
+	<string name="Po_Address">地址</string>
+	<string name="Po_Contact_Info">聯絡方式</string>
+	<string name="Po_Phone">電話</string>
+	<string name="Po_Fax">傳真</string>
+	<string name="Po_Mobile">手機</string>
+	<string name="Po_E_Mail">電子信箱</string>
+	<string name="Po_Remark">備註</string>
+	
+	
+	
+</resources>

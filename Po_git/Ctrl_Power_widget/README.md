@@ -1,0 +1,5 @@
+1. 今天將此 project 換 workspace, 從workspace2換到workspace 結果出現錯誤訊息An error occurred while automatically activating bundle com.android.ide.eclipse.adt  , 解決方法就是重新下載adt ,重新指派SDK path就好了, reference: http://stackoverflow.com/questions/16974349/an-error-occurred-while-automatically-activating-bundle-com-android-ide-eclipse , http://stackoverflow.com/questions/12341401/error-setting-preferences-in-eclipse-for-adt , http://developer.android.com/sdk/installing/installing-adt.html
+
+2. 將project換到workspace後, 又出現錯誤, 在res->value下的styles.xml中出現錯誤, <style name="AppBaseTheme" parent="Theme.AppCompat.Light"> 這一行不知道為何錯誤, 解決方法就是將 Theme.AppCompat.Light 這行改成 android:Theme.Light 就解決了, reference: http://blog.163.com/wslngcjsdxdr@126/blog/static/16219623020146971323118
+
+3. 如果想要使用系統等級的permission 正常來說IDE會報錯, 因此可透過調整 Window -> Preferences -> Android -> Lint Error Checking的等級解決, 將ProtectedPermission的Error設定為Warning就好了

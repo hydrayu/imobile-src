@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-addon-spycam" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-addon-spycam" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-addon-swt" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-addon-swt" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-pages" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-pages" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-ipcam" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-ipcam" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-vlcj" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-vlcj" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-jmf" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-jmf" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-video-recordig" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-video-recordig" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-transformer" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-transformer" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-javafx-fxml" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-motiondetector" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-motiondetector" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-live-streaming" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-live-streaming" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-manycams" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-manycams" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-executable" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-executable" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-websockets" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-detect-face" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-detect-face" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-javafx" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-onejar" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-qrcode" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-qrcode" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-painter" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-painter" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-swt-awt" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-swt-awt" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-lti-civil" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-lti-civil" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-ffmpeg-cli" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-ffmpeg-cli" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-example-applet" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-example-applet" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-v4l4j" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-v4l4j" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-fswebcam" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-fswebcam" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-javacv" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-javacv" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-openimaj" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-openimaj" />
+      </profile>
+      <profile default="false" name="Annotation profile for webcam-capture-driver-gstreamer" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="webcam-capture-driver-gstreamer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webcam-capture" target="1.6" />
+      <module name="webcam-capture-addon-spycam" target="1.6" />
+      <module name="webcam-capture-addon-swt" target="1.6" />
+      <module name="webcam-capture-addons" target="1.6" />
+      <module name="webcam-capture-driver-ffmpeg-cli" target="1.6" />
+      <module name="webcam-capture-driver-fswebcam" target="1.6" />
+      <module name="webcam-capture-driver-gstreamer" target="1.6" />
+      <module name="webcam-capture-driver-ipcam" target="1.6" />
+      <module name="webcam-capture-driver-javacv" target="1.6" />
+      <module name="webcam-capture-driver-jmf" target="1.6" />
+      <module name="webcam-capture-driver-lti-civil" target="1.6" />
+      <module name="webcam-capture-driver-openimaj" target="1.6" />
+      <module name="webcam-capture-driver-v4l4j" target="1.6" />
+      <module name="webcam-capture-driver-vlcj" target="1.6" />
+      <module name="webcam-capture-drivers" target="1.6" />
+      <module name="webcam-capture-example-applet" target="1.6" />
+      <module name="webcam-capture-example-detect-face" target="1.6" />
+      <module name="webcam-capture-example-executable" target="1.6" />
+      <module name="webcam-capture-example-javafx" target="1.7" />
+      <module name="webcam-capture-example-javafx-fxml" target="1.7" />
+      <module name="webcam-capture-example-live-streaming" target="1.6" />
+      <module name="webcam-capture-example-manycams" target="1.6" />
+      <module name="webcam-capture-example-motiondetector" target="1.6" />
+      <module name="webcam-capture-example-onejar" target="1.6" />
+      <module name="webcam-capture-example-painter" target="1.6" />
+      <module name="webcam-capture-example-qrcode" target="1.6" />
+      <module name="webcam-capture-example-swt-awt" target="1.6" />
+      <module name="webcam-capture-example-transformer" target="1.6" />
+      <module name="webcam-capture-example-video-recordig" target="1.6" />
+      <module name="webcam-capture-example-websockets" target="1.6" />
+      <module name="webcam-capture-examples" target="1.6" />
+      <module name="webcam-capture-pages" target="1.6" />
+      <module name="webcam-capture-parent" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

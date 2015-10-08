@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:title="Serial port setup">
+    <PreferenceCategory android:title="@string/pref_general_title">
+	<ListPreference
+		android:key="PORT"
+		android:title="Port"
+		android:persistent="true">
+	</ListPreference>
+	<ListPreference
+		android:entries="@array/baudrates_name"
+		android:entryValues="@array/baudrates_value"
+		android:key="BAUDRATE"
+		android:persistent="true"
+		android:title="Baudrate">
+	</ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_customize">
+        <ListPreference 
+                android:key="INPUT_DEVICE"
+                android:title="@string/pref_input_device"
+                android:summary="click to select input device"
+                android:entries="@array/inputdevice_name"
+                android:entryValues="@array/inputdevice_value"
+                android:persistent="false">
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

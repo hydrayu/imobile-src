@@ -1,0 +1,10 @@
+D:\src\ZXing.Net.org\Clients\imBarcodeReader\obj\Release\imBarcodeReader.csprojResolveAssemblyReference.cache
+D:\src\ZXing.Net.org\Clients\imBarcodeReader\obj\Release\imBarcodeReader.imBarcodeReaderForm.resources
+D:\src\ZXing.Net.org\Clients\imBarcodeReader\obj\Release\imBarcodeReader.Properties.Resources.resources
+D:\src\ZXing.Net.org\Clients\imBarcodeReader\obj\Release\imBarcodeReader.csproj.GenerateResource.Cache
+D:\src\ZXing.Net.org\Build\Release\Clients\imBarcodeReader\imBarcodeReader.exe.config
+D:\src\ZXing.Net.org\Build\Release\Clients\imBarcodeReader\imBarcodeReader.XML
+D:\src\ZXing.Net.org\Build\Release\Clients\imBarcodeReader\imBarcodeReader.exe
+D:\src\ZXing.Net.org\Build\Release\Clients\imBarcodeReader\imBarcodeReader.pdb
+D:\src\ZXing.Net.org\Clients\imBarcodeReader\obj\Release\imBarcodeReader.exe
+D:\src\ZXing.Net.org\Clients\imBarcodeReader\obj\Release\imBarcodeReader.pdb

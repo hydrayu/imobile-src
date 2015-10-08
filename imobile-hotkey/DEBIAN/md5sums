@@ -1,0 +1,15 @@
+bd288f3574d61b760b0c34214f9b63f5  etc/buttond.conf
+c2a9633ee309b696416be8a22a9ff553  etc/init.d/buttond-init.d
+84eb4b6db8ac93be8e9db077d4344e41  etc/init.d/.buttond.swp
+4e3b710f0dea9f1b947454c6df8f4bf8  usr/bin/buttond
+34d4d5c1a49c7470425cfecdc3e19154  usr/bin/buttons_client
+5543078dde40fd3159e07eb509a20dbf  usr/bin/cappind.py
+fae40a847a2a4d51ef017a15d48e1fba  usr/bin/hotkey_config.sh
+76f518781bd03a92da8c4dc3b1e118eb  usr/share/doc/imobile-hotkey/buttond.cpp
+f942cb6947113a23ae7dcdeca01247b9  usr/share/doc/imobile-hotkey/buttons_client.c
+45558a4e285fe64380f61e5e7a9f1838  usr/share/doc/imobile-hotkey/buttons_client.rc
+fd8e2f7eb35e488ff181b401925408ae  usr/share/doc/imobile-hotkey/.buttons_client.rc.swp
+033da6a18a12b036bbd4b1cb241086ac  usr/share/doc/imobile-hotkey/buttons_client.sh
+be3fc58f0bcc378579d1f54e1f8d947d  usr/share/doc/imobile-hotkey/init.d-buttond
+9576529345bbbdd633d5ce4e5295f4d8  usr/share/doc/imobile-hotkey/Makefile
+b5f69cbd7d27f779fbe9138a93b0e493  usr/share/doc/imobile-hotkey/README

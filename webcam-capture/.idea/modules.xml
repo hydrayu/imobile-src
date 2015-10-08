@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture.iml" filepath="$PROJECT_DIR$/webcam-capture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-addon-spycam.iml" filepath="$PROJECT_DIR$/webcam-capture-addon-spycam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-addon-swt.iml" filepath="$PROJECT_DIR$/webcam-capture-addon-swt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-addons.iml" filepath="$PROJECT_DIR$/webcam-capture-addons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-ffmpeg-cli.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-ffmpeg-cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-fswebcam.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-fswebcam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-gstreamer.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-gstreamer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-ipcam.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-ipcam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-javacv.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-javacv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-jmf.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-jmf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-lti-civil.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-lti-civil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-openimaj.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-openimaj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-v4l4j.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-v4l4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-driver-vlcj.iml" filepath="$PROJECT_DIR$/webcam-capture-driver-vlcj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-drivers.iml" filepath="$PROJECT_DIR$/webcam-capture-drivers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-applet.iml" filepath="$PROJECT_DIR$/webcam-capture-example-applet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-detect-face.iml" filepath="$PROJECT_DIR$/webcam-capture-example-detect-face.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-executable.iml" filepath="$PROJECT_DIR$/webcam-capture-example-executable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-live-streaming.iml" filepath="$PROJECT_DIR$/webcam-capture-example-live-streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-manycams.iml" filepath="$PROJECT_DIR$/webcam-capture-example-manycams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-motiondetector.iml" filepath="$PROJECT_DIR$/webcam-capture-example-motiondetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-painter.iml" filepath="$PROJECT_DIR$/webcam-capture-example-painter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-qrcode.iml" filepath="$PROJECT_DIR$/webcam-capture-example-qrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-swt-awt.iml" filepath="$PROJECT_DIR$/webcam-capture-example-swt-awt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-transformer.iml" filepath="$PROJECT_DIR$/webcam-capture-example-transformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-example-video-recordig.iml" filepath="$PROJECT_DIR$/webcam-capture-example-video-recordig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-examples.iml" filepath="$PROJECT_DIR$/webcam-capture-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-pages.iml" filepath="$PROJECT_DIR$/webcam-capture-pages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-capture-parent.iml" filepath="$PROJECT_DIR$/webcam-capture-parent.iml" />
+    </modules>
+  </component>
+</project>
